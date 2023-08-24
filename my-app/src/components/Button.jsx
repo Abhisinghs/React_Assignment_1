@@ -1,4 +1,8 @@
 
+
+//Answer-2
+
+
 //define function 
 function Button({text,onClick}){  //here i did destructe the props to use direct with name 
     return(
