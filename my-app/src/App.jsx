@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Header from "./components/Header";
 import Person from "./components/PersonDetails";
 
 
@@ -8,7 +9,7 @@ function App(){
   const personAge=21;
   return (
     <>
-      <h1>Welcome to My React Assignment</h1>
+      <Header title="Welcome to my react Assignment"/>
 
       <Person name={personName} age={personAge} />
 
