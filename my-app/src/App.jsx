@@ -12,7 +12,7 @@ function App(){
 
       <Person name={personName} age={personAge} />
 
-      <Button/>
+      <Button text="click Me!" onClick={()=>console.log("Button Clicked")}/>
     </>
   );
 }

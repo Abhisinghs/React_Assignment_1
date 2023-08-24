@@ -1,11 +1,12 @@
 
 //define function 
-function Button({text,onClick}){
+function Button({text,onClick}){  //here i did destructe the props to use direct with name 
     return(
         <>
-            <h1>Button</h1>
+            <button onClick={onClick}>{text}</button>
         </>
     )
 }
 
+//export 
 export default Button;
